@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "QTSCardReader"
-  spec.version      = "1.1.7"
+  spec.version      = "1.1.8"
   spec.summary      = "A short description of QTSCardReader."
   spec.homepage     = "https://github.com/trungnguyen1791/QTSCardReader"
   spec.author           = { 'My Name' => 'myemail@example.com' }
@@ -25,12 +25,12 @@ Pod::Spec.new do |spec|
   spec.platform = :ios
   spec.ios.deployment_target = "11.0"
 
-  spec.source            = { :http => 'https://github.com/trungnguyen1791/QTSCardReader/releases/download/1.1.7/IDCardReader.zip' }
+  spec.source            = { :http => 'https://github.com/trungnguyen1791/QTSCardReader/releases/download/1.1.8/IDCardReader.zip' }
   spec.vendored_frameworks = 'IDCardReader/IDCardReader.xcframework'
   spec.dependency "ObjectMapper", '~> 4.2'
   spec.dependency "KeychainSwift", '~> 19.0'
   spec.dependency "CryptoSwift", '~> 1.8.2'
-  spec.dependency "SignManager", '~> 1.0.5'
+  spec.dependency "SignManager", '~> 1.0.6'
   spec.dependency "OpenSSL-Universal", '~> 1.1.1100'
 
   spec.swift_version = "5.0"
