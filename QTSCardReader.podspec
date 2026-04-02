@@ -25,8 +25,10 @@ Pod::Spec.new do |spec|
   spec.platform = :ios
   spec.ios.deployment_target = "15.5"
 
-  spec.source            = { :http => 'https://github.com/trungnguyen1791/QTSCardReader/releases/download/1.3.5/IDCardReader.zip' }
-  spec.vendored_frameworks = 'IDCardReader/IDCardReader.xcframework'
+  spec.vendored_frameworks = [
+    'Frameworks/IDCardReader.xcframework',
+  ]
+
   spec.dependency "ObjectMapper", '~> 4.2'
   spec.dependency "KeychainSwift", '24.0.0'
   spec.dependency "CryptoSwift", '~> 1.8.2'
