@@ -5,7 +5,7 @@ Pod::Spec.new do |spec|
   spec.homepage     = "https://github.com/trungnguyen1791/QTSCardReader"
   spec.author           = { 'My Name' => 'myemail@example.com' }
   spec.license      = "MIT"
-  spec.source       = { :git => "https://github.com/trungnguyen1791/QTSCardReader.git", :branch => "ncb" }
+  spec.source           = { :git => 'https://github.com/trungnguyen1791/QTSCardReader.git', :tag => spec.version.to_s }
   
   spec.platform = :ios
   spec.ios.deployment_target = "15.5"
