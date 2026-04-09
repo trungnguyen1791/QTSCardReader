@@ -14084,6 +14084,13 @@
           },
           {
             "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
+          },
+          {
+            "kind": "Conformance",
             "name": "LocalizedError",
             "printedName": "LocalizedError",
             "usr": "s:10Foundation14LocalizedErrorP",
@@ -14598,6 +14605,13 @@
           },
           {
             "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
+          },
+          {
+            "kind": "Conformance",
             "name": "LocalizedError",
             "printedName": "LocalizedError",
             "usr": "s:10Foundation14LocalizedErrorP",
@@ -14855,6 +14869,13 @@
             "printedName": "Sendable",
             "usr": "s:s8SendableP",
             "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
           },
           {
             "kind": "Conformance",
@@ -29779,6 +29800,13 @@
             "printedName": "_ObjectiveCBridgeableError",
             "usr": "s:10Foundation26_ObjectiveCBridgeableErrorP",
             "mangledName": "$s10Foundation26_ObjectiveCBridgeableErrorP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
           }
         ]
       },
@@ -30185,6 +30213,13 @@
             "printedName": "Sendable",
             "usr": "s:s8SendableP",
             "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
           },
           {
             "kind": "Conformance",
@@ -30967,6 +31002,7 @@
         "intro_tvOS": "9.0",
         "intro_watchOS": "2.0",
         "declAttributes": [
+          "AddressableForDependencies",
           "Frozen",
           "Available",
           "Available",
@@ -31332,6 +31368,13 @@
           },
           {
             "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Sequence",
             "printedName": "Sequence",
             "children": [
@@ -31381,6 +31424,41 @@
           },
           {
             "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomReflectable",
+            "printedName": "CustomReflectable",
+            "usr": "s:s17CustomReflectableP",
+            "mangledName": "$ss17CustomReflectableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          },
+          {
+            "kind": "Conformance",
             "name": "ReferenceConvertible",
             "printedName": "ReferenceConvertible",
             "children": [
@@ -31425,41 +31503,6 @@
           },
           {
             "kind": "Conformance",
-            "name": "CustomStringConvertible",
-            "printedName": "CustomStringConvertible",
-            "usr": "s:s23CustomStringConvertibleP",
-            "mangledName": "$ss23CustomStringConvertibleP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CustomDebugStringConvertible",
-            "printedName": "CustomDebugStringConvertible",
-            "usr": "s:s28CustomDebugStringConvertibleP",
-            "mangledName": "$ss28CustomDebugStringConvertibleP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CustomReflectable",
-            "printedName": "CustomReflectable",
-            "usr": "s:s17CustomReflectableP",
-            "mangledName": "$ss17CustomReflectableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Decodable",
-            "printedName": "Decodable",
-            "usr": "s:Se",
-            "mangledName": "$sSe"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Encodable",
-            "printedName": "Encodable",
-            "usr": "s:SE",
-            "mangledName": "$sSE"
-          },
-          {
-            "kind": "Conformance",
             "name": "Transferable",
             "printedName": "Transferable",
             "children": [
@@ -31494,3304 +31537,3304 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/ChipAuthenticationHandler.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/ChipAuthenticationHandler.swift",
       "kind": "IntegerLiteral",
       "offset": 339,
       "length": 4,
       "value": "0x00"
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/ChipAuthenticationHandler.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/ChipAuthenticationHandler.swift",
       "kind": "IntegerLiteral",
       "offset": 386,
       "length": 3,
       "value": "0x1"
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/ChipAuthenticationHandler.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/ChipAuthenticationHandler.swift",
       "kind": "IntegerLiteral",
       "offset": 432,
       "length": 3,
       "value": "0x2"
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/ChipAuthenticationHandler.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/ChipAuthenticationHandler.swift",
       "kind": "IntegerLiteral",
       "offset": 479,
       "length": 3,
       "value": "0x3"
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/ChipAuthenticationHandler.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/ChipAuthenticationHandler.swift",
       "kind": "IntegerLiteral",
       "offset": 537,
       "length": 3,
       "value": "224"
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/ChipAuthenticationHandler.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/ChipAuthenticationHandler.swift",
       "kind": "BooleanLiteral",
       "offset": 787,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/PACEHandler.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/PACEHandler.swift",
       "kind": "IntegerLiteral",
       "offset": 867,
       "length": 4,
       "value": "0x01"
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/PACEHandler.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/PACEHandler.swift",
       "kind": "IntegerLiteral",
       "offset": 928,
       "length": 4,
       "value": "0x02"
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/PACEHandler.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/PACEHandler.swift",
       "kind": "IntegerLiteral",
       "offset": 1016,
       "length": 4,
       "value": "0x03"
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/PACEHandler.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/PACEHandler.swift",
       "kind": "IntegerLiteral",
       "offset": 1104,
       "length": 4,
       "value": "0x04"
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/PACEHandler.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/PACEHandler.swift",
       "kind": "BooleanLiteral",
       "offset": 1233,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/PACEHandler.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/PACEHandler.swift",
       "kind": "StringLiteral",
       "offset": 1268,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/PACEHandler.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/PACEHandler.swift",
       "kind": "Array",
       "offset": 1331,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/PACEHandler.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/PACEHandler.swift",
       "kind": "IntegerLiteral",
       "offset": 1372,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/PACEHandler.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/PACEHandler.swift",
       "kind": "StringLiteral",
       "offset": 1409,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/PACEHandler.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/PACEHandler.swift",
       "kind": "IntegerLiteral",
       "offset": 1452,
       "length": 2,
       "value": "-1"
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/PACEHandler.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/PACEHandler.swift",
       "kind": "StringLiteral",
       "offset": 1542,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/PACEHandler.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/PACEHandler.swift",
       "kind": "StringLiteral",
       "offset": 1582,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/PACEHandler.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/PACEHandler.swift",
       "kind": "StringLiteral",
       "offset": 1622,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/PACEHandler.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/PACEHandler.swift",
       "kind": "IntegerLiteral",
       "offset": 1659,
       "length": 2,
       "value": "-1"
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/PACEHandler.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/PACEHandler.swift",
       "kind": "BooleanLiteral",
       "offset": 4475,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/Extension\/Extension.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/Extension\/Extension.swift",
       "kind": "StringLiteral",
       "offset": 6259,
       "length": 27,
       "value": "\"com.IDCardReader.GIFQueue\""
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/Extension\/Extension.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/Extension\/Extension.swift",
       "kind": "IntegerLiteral",
       "offset": 7037,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/Logging.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/Logging.swift",
       "kind": "IntegerLiteral",
       "offset": 285,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/Logging.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/Logging.swift",
       "kind": "IntegerLiteral",
       "offset": 304,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/Logging.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/Logging.swift",
       "kind": "IntegerLiteral",
       "offset": 322,
       "length": 1,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/Logging.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/Logging.swift",
       "kind": "IntegerLiteral",
       "offset": 343,
       "length": 1,
       "value": "3"
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/Logging.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/Logging.swift",
       "kind": "IntegerLiteral",
       "offset": 362,
       "length": 1,
       "value": "4"
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/Logging.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/Logging.swift",
       "kind": "IntegerLiteral",
       "offset": 380,
       "length": 1,
       "value": "5"
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/Logging.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/Logging.swift",
       "kind": "BooleanLiteral",
       "offset": 488,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/Logging.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/Logging.swift",
       "kind": "BooleanLiteral",
       "offset": 618,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/SimpleASN1DumpParser.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/SimpleASN1DumpParser.swift",
       "kind": "IntegerLiteral",
       "offset": 242,
       "length": 2,
       "value": "-1"
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/SimpleASN1DumpParser.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/SimpleASN1DumpParser.swift",
       "kind": "IntegerLiteral",
       "offset": 267,
       "length": 2,
       "value": "-1"
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/SimpleASN1DumpParser.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/SimpleASN1DumpParser.swift",
       "kind": "IntegerLiteral",
       "offset": 296,
       "length": 2,
       "value": "-1"
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/SimpleASN1DumpParser.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/SimpleASN1DumpParser.swift",
       "kind": "IntegerLiteral",
       "offset": 322,
       "length": 2,
       "value": "-1"
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/SimpleASN1DumpParser.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/SimpleASN1DumpParser.swift",
       "kind": "StringLiteral",
       "offset": 353,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/SimpleASN1DumpParser.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/SimpleASN1DumpParser.swift",
       "kind": "StringLiteral",
       "offset": 423,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/SimpleASN1DumpParser.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/SimpleASN1DumpParser.swift",
       "kind": "StringLiteral",
       "offset": 499,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/SimpleASN1DumpParser.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/SimpleASN1DumpParser.swift",
       "kind": "StringLiteral",
       "offset": 526,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/DataGroups\/COM.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/DataGroups\/COM.swift",
       "kind": "StringLiteral",
       "offset": 195,
       "length": 9,
       "value": "\"Unknown\""
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/DataGroups\/COM.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/DataGroups\/COM.swift",
       "kind": "StringLiteral",
       "offset": 259,
       "length": 9,
       "value": "\"Unknown\""
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/DataGroups\/COM.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/DataGroups\/COM.swift",
       "kind": "Array",
       "offset": 328,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/DataGroups\/DataGroup.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/DataGroups\/DataGroup.swift",
       "kind": "Array",
       "offset": 290,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/DataGroups\/DataGroup.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/DataGroups\/DataGroup.swift",
       "kind": "Array",
       "offset": 435,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/DataGroups\/DataGroup.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/DataGroups\/DataGroup.swift",
       "kind": "IntegerLiteral",
       "offset": 457,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/AES_3DES_DESEncryption.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/AES_3DES_DESEncryption.swift",
       "kind": "IntegerLiteral",
       "offset": 9295,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/AES_3DES_DESEncryption.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/AES_3DES_DESEncryption.swift",
       "kind": "IntegerLiteral",
       "offset": 11071,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/TOTPGeneratpr.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/TOTPGeneratpr.swift",
       "kind": "IntegerLiteral",
       "offset": 2898,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/TOTPGeneratpr.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/TOTPGeneratpr.swift",
       "kind": "IntegerLiteral",
       "offset": 3271,
       "length": 1,
       "value": "6"
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/TOTPGeneratpr.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/TOTPGeneratpr.swift",
       "kind": "IntegerLiteral",
       "offset": 3320,
       "length": 1,
       "value": "7"
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/TOTPGeneratpr.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/TOTPGeneratpr.swift",
       "kind": "IntegerLiteral",
       "offset": 3369,
       "length": 1,
       "value": "8"
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/OpenSSLUtils.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/OpenSSLUtils.swift",
       "kind": "BooleanLiteral",
       "offset": 245,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/OpenSSLUtils.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/OpenSSLUtils.swift",
       "kind": "StringLiteral",
       "offset": 17203,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/DataGroups\/DataGroup2.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/DataGroups\/DataGroup2.swift",
       "kind": "IntegerLiteral",
       "offset": 243,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/DataGroups\/DataGroup2.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/DataGroups\/DataGroup2.swift",
       "kind": "IntegerLiteral",
       "offset": 295,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/DataGroups\/DataGroup2.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/DataGroups\/DataGroup2.swift",
       "kind": "IntegerLiteral",
       "offset": 348,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/DataGroups\/DataGroup2.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/DataGroups\/DataGroup2.swift",
       "kind": "IntegerLiteral",
       "offset": 407,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/DataGroups\/DataGroup2.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/DataGroups\/DataGroup2.swift",
       "kind": "IntegerLiteral",
       "offset": 468,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/DataGroups\/DataGroup2.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/DataGroups\/DataGroup2.swift",
       "kind": "IntegerLiteral",
       "offset": 522,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/DataGroups\/DataGroup2.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/DataGroups\/DataGroup2.swift",
       "kind": "IntegerLiteral",
       "offset": 567,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/DataGroups\/DataGroup2.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/DataGroups\/DataGroup2.swift",
       "kind": "IntegerLiteral",
       "offset": 614,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/DataGroups\/DataGroup2.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/DataGroups\/DataGroup2.swift",
       "kind": "IntegerLiteral",
       "offset": 662,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/DataGroups\/DataGroup2.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/DataGroups\/DataGroup2.swift",
       "kind": "IntegerLiteral",
       "offset": 712,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/DataGroups\/DataGroup2.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/DataGroups\/DataGroup2.swift",
       "kind": "IntegerLiteral",
       "offset": 761,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/DataGroups\/DataGroup2.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/DataGroups\/DataGroup2.swift",
       "kind": "IntegerLiteral",
       "offset": 809,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/DataGroups\/DataGroup2.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/DataGroups\/DataGroup2.swift",
       "kind": "IntegerLiteral",
       "offset": 868,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/DataGroups\/DataGroup2.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/DataGroups\/DataGroup2.swift",
       "kind": "IntegerLiteral",
       "offset": 920,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/DataGroups\/DataGroup2.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/DataGroups\/DataGroup2.swift",
       "kind": "IntegerLiteral",
       "offset": 972,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/DataGroups\/DataGroup2.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/DataGroups\/DataGroup2.swift",
       "kind": "IntegerLiteral",
       "offset": 1021,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/DataGroups\/DataGroup2.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/DataGroups\/DataGroup2.swift",
       "kind": "IntegerLiteral",
       "offset": 1071,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/DataGroups\/DataGroup2.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/DataGroups\/DataGroup2.swift",
       "kind": "IntegerLiteral",
       "offset": 1125,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/DataGroups\/DataGroup2.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/DataGroups\/DataGroup2.swift",
       "kind": "IntegerLiteral",
       "offset": 1174,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/DataGroups\/DataGroup2.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/DataGroups\/DataGroup2.swift",
       "kind": "IntegerLiteral",
       "offset": 1223,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/DataGroups\/DataGroup2.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/DataGroups\/DataGroup2.swift",
       "kind": "IntegerLiteral",
       "offset": 1269,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/DataGroups\/DataGroup2.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/DataGroups\/DataGroup2.swift",
       "kind": "Array",
       "offset": 1321,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/Utils.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/Utils.swift",
       "kind": "Array",
       "offset": 1116,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/Utils.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/Utils.swift",
       "kind": "BooleanLiteral",
       "offset": 1265,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/Utils.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/Utils.swift",
       "kind": "IntegerLiteral",
       "offset": 2483,
       "length": 1,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/BACHandler.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/BACHandler.swift",
       "kind": "Array",
       "offset": 291,
       "length": 9,
       "value": "[0, 0, 0, 1]"
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/BACHandler.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/BACHandler.swift",
       "kind": "Array",
       "offset": 326,
       "length": 9,
       "value": "[0, 0, 0, 2]"
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/BACHandler.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/BACHandler.swift",
       "kind": "Array",
       "offset": 374,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/BACHandler.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/BACHandler.swift",
       "kind": "Array",
       "offset": 410,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/BACHandler.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/BACHandler.swift",
       "kind": "Array",
       "offset": 442,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/BACHandler.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/BACHandler.swift",
       "kind": "Array",
       "offset": 473,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/BACHandler.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/BACHandler.swift",
       "kind": "Array",
       "offset": 508,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/DataGroupParser.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/DataGroupParser.swift",
       "kind": "Array",
       "offset": 187,
       "length": 145,
       "value": "[\"Common\", \"DG1\", \"DG2\", \"DG3\", \"DG4\", \"DG5\", \"DG6\", \"DG7\", \"DG8\", \"DG9\", \"DG10\", \"DG11\", \"DG12\", \"DG13\", \"DG14\", \"DG15\", \"DG16\", \"SecurityData\"]"
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/DataGroupParser.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/DataGroupParser.swift",
       "kind": "Array",
       "offset": 365,
       "length": 108,
       "value": "[0x60, 0x61, 0x75, 0x63, 0x76, 0x65, 0x66, 0x67, 0x68, 0x69, 0x6A, 0x6B, 0x6C, 0x6D, 0x6E, 0x6F, 0x70, 0x77]"
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/DataGroups\/DataGroup1.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/DataGroups\/DataGroup1.swift",
       "kind": "Dictionary",
       "offset": 428,
       "length": 3,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/Extension\/Request+Extension.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/Extension\/Request+Extension.swift",
       "kind": "StringLiteral",
       "offset": 456,
       "length": 6,
       "value": "\"\r\n\""
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/Request\/InitTransactionRequest.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/Request\/InitTransactionRequest.swift",
       "kind": "IntegerLiteral",
       "offset": 240,
       "length": 2,
       "value": "30"
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/Request\/InitTransactionRequest.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/Request\/InitTransactionRequest.swift",
       "kind": "Dictionary",
       "offset": 276,
       "length": 3,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/Request\/InitTransactionRequest.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/Request\/InitTransactionRequest.swift",
       "kind": "Dictionary",
       "offset": 322,
       "length": 3,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/X509Wrapper.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/X509Wrapper.swift",
       "kind": "StringLiteral",
       "offset": 344,
       "length": 25,
       "value": "\"Certificate fingerprint\""
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/X509Wrapper.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/X509Wrapper.swift",
       "kind": "StringLiteral",
       "offset": 392,
       "length": 8,
       "value": "\"Issuer\""
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/X509Wrapper.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/X509Wrapper.swift",
       "kind": "StringLiteral",
       "offset": 424,
       "length": 9,
       "value": "\"Subject\""
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/X509Wrapper.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/X509Wrapper.swift",
       "kind": "StringLiteral",
       "offset": 458,
       "length": 15,
       "value": "\"Serial number\""
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/X509Wrapper.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/X509Wrapper.swift",
       "kind": "StringLiteral",
       "offset": 504,
       "length": 21,
       "value": "\"Signature algorithm\""
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/X509Wrapper.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/X509Wrapper.swift",
       "kind": "StringLiteral",
       "offset": 556,
       "length": 22,
       "value": "\"Public key algorithm\""
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/X509Wrapper.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/X509Wrapper.swift",
       "kind": "StringLiteral",
       "offset": 600,
       "length": 12,
       "value": "\"Valid from\""
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/X509Wrapper.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/X509Wrapper.swift",
       "kind": "StringLiteral",
       "offset": 633,
       "length": 10,
       "value": "\"Valid to\""
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/DataGroups\/DataGroupId.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/DataGroups\/DataGroupId.swift",
       "kind": "IntegerLiteral",
       "offset": 261,
       "length": 4,
       "value": "0x60"
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/DataGroups\/DataGroupId.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/DataGroups\/DataGroupId.swift",
       "kind": "IntegerLiteral",
       "offset": 281,
       "length": 4,
       "value": "0x61"
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/DataGroups\/DataGroupId.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/DataGroups\/DataGroupId.swift",
       "kind": "IntegerLiteral",
       "offset": 301,
       "length": 4,
       "value": "0x75"
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/DataGroups\/DataGroupId.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/DataGroups\/DataGroupId.swift",
       "kind": "IntegerLiteral",
       "offset": 321,
       "length": 4,
       "value": "0x63"
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/DataGroups\/DataGroupId.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/DataGroups\/DataGroupId.swift",
       "kind": "IntegerLiteral",
       "offset": 341,
       "length": 4,
       "value": "0x76"
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/DataGroups\/DataGroupId.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/DataGroups\/DataGroupId.swift",
       "kind": "IntegerLiteral",
       "offset": 361,
       "length": 4,
       "value": "0x65"
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/DataGroups\/DataGroupId.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/DataGroups\/DataGroupId.swift",
       "kind": "IntegerLiteral",
       "offset": 381,
       "length": 4,
       "value": "0x66"
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/DataGroups\/DataGroupId.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/DataGroups\/DataGroupId.swift",
       "kind": "IntegerLiteral",
       "offset": 401,
       "length": 4,
       "value": "0x67"
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/DataGroups\/DataGroupId.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/DataGroups\/DataGroupId.swift",
       "kind": "IntegerLiteral",
       "offset": 421,
       "length": 4,
       "value": "0x68"
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/DataGroups\/DataGroupId.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/DataGroups\/DataGroupId.swift",
       "kind": "IntegerLiteral",
       "offset": 441,
       "length": 4,
       "value": "0x69"
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/DataGroups\/DataGroupId.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/DataGroups\/DataGroupId.swift",
       "kind": "IntegerLiteral",
       "offset": 462,
       "length": 4,
       "value": "0x6A"
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/DataGroups\/DataGroupId.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/DataGroups\/DataGroupId.swift",
       "kind": "IntegerLiteral",
       "offset": 483,
       "length": 4,
       "value": "0x6B"
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/DataGroups\/DataGroupId.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/DataGroups\/DataGroupId.swift",
       "kind": "IntegerLiteral",
       "offset": 504,
       "length": 4,
       "value": "0x6C"
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/DataGroups\/DataGroupId.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/DataGroups\/DataGroupId.swift",
       "kind": "IntegerLiteral",
       "offset": 525,
       "length": 4,
       "value": "0x6D"
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/DataGroups\/DataGroupId.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/DataGroups\/DataGroupId.swift",
       "kind": "IntegerLiteral",
       "offset": 546,
       "length": 4,
       "value": "0x6E"
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/DataGroups\/DataGroupId.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/DataGroups\/DataGroupId.swift",
       "kind": "IntegerLiteral",
       "offset": 567,
       "length": 4,
       "value": "0x6F"
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/DataGroups\/DataGroupId.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/DataGroups\/DataGroupId.swift",
       "kind": "IntegerLiteral",
       "offset": 588,
       "length": 4,
       "value": "0x70"
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/DataGroups\/DataGroupId.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/DataGroups\/DataGroupId.swift",
       "kind": "IntegerLiteral",
       "offset": 608,
       "length": 4,
       "value": "0x77"
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/DataGroups\/DataGroupId.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/DataGroups\/DataGroupId.swift",
       "kind": "IntegerLiteral",
       "offset": 632,
       "length": 4,
       "value": "0x00"
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/SecureMessagingSessionKeyGenerator.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/SecureMessagingSessionKeyGenerator.swift",
       "kind": "IntegerLiteral",
       "offset": 278,
       "length": 4,
       "value": "0x00"
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/SecureMessagingSessionKeyGenerator.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/SecureMessagingSessionKeyGenerator.swift",
       "kind": "IntegerLiteral",
       "offset": 334,
       "length": 3,
       "value": "0x1"
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/SecureMessagingSessionKeyGenerator.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/SecureMessagingSessionKeyGenerator.swift",
       "kind": "IntegerLiteral",
       "offset": 363,
       "length": 3,
       "value": "0x2"
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/SecureMessagingSessionKeyGenerator.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/SecureMessagingSessionKeyGenerator.swift",
       "kind": "IntegerLiteral",
       "offset": 393,
       "length": 3,
       "value": "0x3"
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/DataGroups\/SecurityInfo.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/DataGroups\/SecurityInfo.swift",
       "kind": "StringLiteral",
       "offset": 250,
       "length": 16,
       "value": "\"2.23.136.1.1.5\""
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/DataGroups\/SecurityInfo.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/DataGroups\/SecurityInfo.swift",
       "kind": "StringLiteral",
       "offset": 410,
       "length": 23,
       "value": "\"0.4.0.127.0.7.1.1.4.1\""
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/DataGroups\/SecurityInfo.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/DataGroups\/SecurityInfo.swift",
       "kind": "StringLiteral",
       "offset": 498,
       "length": 4,
       "value": "\".1\""
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/DataGroups\/SecurityInfo.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/DataGroups\/SecurityInfo.swift",
       "kind": "StringLiteral",
       "offset": 614,
       "length": 4,
       "value": "\".2\""
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/DataGroups\/SecurityInfo.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/DataGroups\/SecurityInfo.swift",
       "kind": "StringLiteral",
       "offset": 732,
       "length": 4,
       "value": "\".3\""
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/DataGroups\/SecurityInfo.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/DataGroups\/SecurityInfo.swift",
       "kind": "StringLiteral",
       "offset": 850,
       "length": 4,
       "value": "\".4\""
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/DataGroups\/SecurityInfo.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/DataGroups\/SecurityInfo.swift",
       "kind": "StringLiteral",
       "offset": 968,
       "length": 4,
       "value": "\".5\""
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/DataGroups\/SecurityInfo.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/DataGroups\/SecurityInfo.swift",
       "kind": "StringLiteral",
       "offset": 1089,
       "length": 4,
       "value": "\".6\""
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/DataGroups\/SecurityInfo.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/DataGroups\/SecurityInfo.swift",
       "kind": "StringLiteral",
       "offset": 1223,
       "length": 23,
       "value": "\"0.4.0.127.0.7.2.2.1.1\""
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/DataGroups\/SecurityInfo.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/DataGroups\/SecurityInfo.swift",
       "kind": "StringLiteral",
       "offset": 1279,
       "length": 23,
       "value": "\"0.4.0.127.0.7.2.2.1.2\""
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/DataGroups\/SecurityInfo.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/DataGroups\/SecurityInfo.swift",
       "kind": "StringLiteral",
       "offset": 1383,
       "length": 25,
       "value": "\"0.4.0.127.0.7.2.2.3.1.1\""
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/DataGroups\/SecurityInfo.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/DataGroups\/SecurityInfo.swift",
       "kind": "StringLiteral",
       "offset": 1454,
       "length": 25,
       "value": "\"0.4.0.127.0.7.2.2.3.2.1\""
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/DataGroups\/SecurityInfo.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/DataGroups\/SecurityInfo.swift",
       "kind": "StringLiteral",
       "offset": 1527,
       "length": 25,
       "value": "\"0.4.0.127.0.7.2.2.3.1.2\""
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/DataGroups\/SecurityInfo.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/DataGroups\/SecurityInfo.swift",
       "kind": "StringLiteral",
       "offset": 1600,
       "length": 25,
       "value": "\"0.4.0.127.0.7.2.2.3.1.3\""
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/DataGroups\/SecurityInfo.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/DataGroups\/SecurityInfo.swift",
       "kind": "StringLiteral",
       "offset": 1673,
       "length": 25,
       "value": "\"0.4.0.127.0.7.2.2.3.1.4\""
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/DataGroups\/SecurityInfo.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/DataGroups\/SecurityInfo.swift",
       "kind": "StringLiteral",
       "offset": 1748,
       "length": 25,
       "value": "\"0.4.0.127.0.7.2.2.3.2.2\""
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/DataGroups\/SecurityInfo.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/DataGroups\/SecurityInfo.swift",
       "kind": "StringLiteral",
       "offset": 1823,
       "length": 25,
       "value": "\"0.4.0.127.0.7.2.2.3.2.3\""
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/DataGroups\/SecurityInfo.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/DataGroups\/SecurityInfo.swift",
       "kind": "StringLiteral",
       "offset": 1898,
       "length": 25,
       "value": "\"0.4.0.127.0.7.2.2.3.2.4\""
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/DataGroups\/SecurityInfo.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/DataGroups\/SecurityInfo.swift",
       "kind": "StringLiteral",
       "offset": 1971,
       "length": 15,
       "value": "\"0.4.0.127.0.7\""
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/DataGroups\/SecurityInfo.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/DataGroups\/SecurityInfo.swift",
       "kind": "StringLiteral",
       "offset": 2021,
       "length": 8,
       "value": "\".2.2.4\""
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/DataGroups\/SecurityInfo.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/DataGroups\/SecurityInfo.swift",
       "kind": "StringLiteral",
       "offset": 2071,
       "length": 4,
       "value": "\".1\""
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/DataGroups\/SecurityInfo.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/DataGroups\/SecurityInfo.swift",
       "kind": "StringLiteral",
       "offset": 2136,
       "length": 4,
       "value": "\".1\""
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/DataGroups\/SecurityInfo.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/DataGroups\/SecurityInfo.swift",
       "kind": "StringLiteral",
       "offset": 2261,
       "length": 4,
       "value": "\".2\""
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/DataGroups\/SecurityInfo.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/DataGroups\/SecurityInfo.swift",
       "kind": "StringLiteral",
       "offset": 2390,
       "length": 4,
       "value": "\".3\""
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/DataGroups\/SecurityInfo.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/DataGroups\/SecurityInfo.swift",
       "kind": "StringLiteral",
       "offset": 2519,
       "length": 4,
       "value": "\".4\""
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/DataGroups\/SecurityInfo.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/DataGroups\/SecurityInfo.swift",
       "kind": "StringLiteral",
       "offset": 2632,
       "length": 4,
       "value": "\".2\""
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/DataGroups\/SecurityInfo.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/DataGroups\/SecurityInfo.swift",
       "kind": "StringLiteral",
       "offset": 2701,
       "length": 4,
       "value": "\".1\""
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/DataGroups\/SecurityInfo.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/DataGroups\/SecurityInfo.swift",
       "kind": "StringLiteral",
       "offset": 2832,
       "length": 4,
       "value": "\".2\""
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/DataGroups\/SecurityInfo.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/DataGroups\/SecurityInfo.swift",
       "kind": "StringLiteral",
       "offset": 2967,
       "length": 4,
       "value": "\".3\""
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/DataGroups\/SecurityInfo.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/DataGroups\/SecurityInfo.swift",
       "kind": "StringLiteral",
       "offset": 3102,
       "length": 4,
       "value": "\".4\""
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/DataGroups\/SecurityInfo.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/DataGroups\/SecurityInfo.swift",
       "kind": "StringLiteral",
       "offset": 3215,
       "length": 4,
       "value": "\".3\""
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/DataGroups\/SecurityInfo.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/DataGroups\/SecurityInfo.swift",
       "kind": "StringLiteral",
       "offset": 3280,
       "length": 4,
       "value": "\".1\""
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/DataGroups\/SecurityInfo.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/DataGroups\/SecurityInfo.swift",
       "kind": "StringLiteral",
       "offset": 3405,
       "length": 4,
       "value": "\".2\""
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/DataGroups\/SecurityInfo.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/DataGroups\/SecurityInfo.swift",
       "kind": "StringLiteral",
       "offset": 3534,
       "length": 4,
       "value": "\".3\""
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/DataGroups\/SecurityInfo.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/DataGroups\/SecurityInfo.swift",
       "kind": "StringLiteral",
       "offset": 3663,
       "length": 4,
       "value": "\".4\""
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/DataGroups\/SecurityInfo.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/DataGroups\/SecurityInfo.swift",
       "kind": "StringLiteral",
       "offset": 3776,
       "length": 4,
       "value": "\".4\""
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/DataGroups\/SecurityInfo.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/DataGroups\/SecurityInfo.swift",
       "kind": "StringLiteral",
       "offset": 3845,
       "length": 4,
       "value": "\".1\""
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/DataGroups\/SecurityInfo.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/DataGroups\/SecurityInfo.swift",
       "kind": "StringLiteral",
       "offset": 3976,
       "length": 4,
       "value": "\".2\""
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/DataGroups\/SecurityInfo.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/DataGroups\/SecurityInfo.swift",
       "kind": "StringLiteral",
       "offset": 4111,
       "length": 4,
       "value": "\".3\""
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/DataGroups\/SecurityInfo.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/DataGroups\/SecurityInfo.swift",
       "kind": "StringLiteral",
       "offset": 4246,
       "length": 4,
       "value": "\".4\""
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/DataGroups\/SecurityInfo.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/DataGroups\/SecurityInfo.swift",
       "kind": "StringLiteral",
       "offset": 4362,
       "length": 4,
       "value": "\".6\""
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/DataGroups\/SecurityInfo.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/DataGroups\/SecurityInfo.swift",
       "kind": "StringLiteral",
       "offset": 4437,
       "length": 4,
       "value": "\".2\""
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/DataGroups\/SecurityInfo.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/DataGroups\/SecurityInfo.swift",
       "kind": "StringLiteral",
       "offset": 4575,
       "length": 4,
       "value": "\".3\""
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/DataGroups\/SecurityInfo.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/DataGroups\/SecurityInfo.swift",
       "kind": "StringLiteral",
       "offset": 4713,
       "length": 4,
       "value": "\".4\""
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/DeviceManager.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/DeviceManager.swift",
       "kind": "StringLiteral",
       "offset": 2785,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/Request\/RegisterDeviceRequest.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/Request\/RegisterDeviceRequest.swift",
       "kind": "IntegerLiteral",
       "offset": 241,
       "length": 2,
       "value": "30"
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/Request\/RegisterDeviceRequest.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/Request\/RegisterDeviceRequest.swift",
       "kind": "StringLiteral",
       "offset": 262,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/Request\/RegisterDeviceRequest.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/Request\/RegisterDeviceRequest.swift",
       "kind": "Dictionary",
       "offset": 298,
       "length": 3,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/Request\/RegisterDeviceRequest.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/Request\/RegisterDeviceRequest.swift",
       "kind": "Dictionary",
       "offset": 344,
       "length": 3,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/Request\/ReadCardRequest.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/Request\/ReadCardRequest.swift",
       "kind": "Dictionary",
       "offset": 383,
       "length": 3,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/Request\/ReadCardRequest.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/Request\/ReadCardRequest.swift",
       "kind": "Dictionary",
       "offset": 429,
       "length": 3,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/TagReader.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/TagReader.swift",
       "kind": "IntegerLiteral",
       "offset": 372,
       "length": 4,
       "value": "0xA0"
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/TagReader.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/TagReader.swift",
       "kind": "IntegerLiteral",
       "offset": 5241,
       "length": 3,
       "value": "256"
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/DataGroups\/SOD.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/DataGroups\/SOD.swift",
       "kind": "Array",
       "offset": 2156,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/DataGroups\/DataGroup7.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/DataGroups\/DataGroup7.swift",
       "kind": "Array",
       "offset": 253,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/API.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/API.swift",
       "kind": "StringLiteral",
       "offset": 219,
       "length": 24,
       "value": "\"\/eid\/v3\/registerDevice\""
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/API.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/API.swift",
       "kind": "StringLiteral",
       "offset": 296,
       "length": 28,
       "value": "\"\/eid\/v3\/updateDeviceSecret\""
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/API.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/API.swift",
       "kind": "StringLiteral",
       "offset": 377,
       "length": 25,
       "value": "\"\/eid\/v3\/initTransaction\""
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/API.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/API.swift",
       "kind": "StringLiteral",
       "offset": 464,
       "length": 14,
       "value": "\"\/eid\/v3\/read\""
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/API.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/API.swift",
       "kind": "StringLiteral",
       "offset": 532,
       "length": 20,
       "value": "\"\/eid\/v3\/verifyFace\""
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/DataGroups\/PACEInfo.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/DataGroups\/PACEInfo.swift",
       "kind": "IntegerLiteral",
       "offset": 450,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/DataGroups\/PACEInfo.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/DataGroups\/PACEInfo.swift",
       "kind": "IntegerLiteral",
       "offset": 498,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/DataGroups\/PACEInfo.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/DataGroups\/PACEInfo.swift",
       "kind": "IntegerLiteral",
       "offset": 546,
       "length": 1,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/DataGroups\/PACEInfo.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/DataGroups\/PACEInfo.swift",
       "kind": "IntegerLiteral",
       "offset": 598,
       "length": 1,
       "value": "8"
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/DataGroups\/PACEInfo.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/DataGroups\/PACEInfo.swift",
       "kind": "IntegerLiteral",
       "offset": 655,
       "length": 1,
       "value": "9"
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/DataGroups\/PACEInfo.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/DataGroups\/PACEInfo.swift",
       "kind": "IntegerLiteral",
       "offset": 707,
       "length": 2,
       "value": "10"
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/DataGroups\/PACEInfo.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/DataGroups\/PACEInfo.swift",
       "kind": "IntegerLiteral",
       "offset": 765,
       "length": 2,
       "value": "11"
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/DataGroups\/PACEInfo.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/DataGroups\/PACEInfo.swift",
       "kind": "IntegerLiteral",
       "offset": 818,
       "length": 2,
       "value": "12"
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/DataGroups\/PACEInfo.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/DataGroups\/PACEInfo.swift",
       "kind": "IntegerLiteral",
       "offset": 876,
       "length": 2,
       "value": "13"
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/DataGroups\/PACEInfo.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/DataGroups\/PACEInfo.swift",
       "kind": "IntegerLiteral",
       "offset": 934,
       "length": 2,
       "value": "14"
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/DataGroups\/PACEInfo.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/DataGroups\/PACEInfo.swift",
       "kind": "IntegerLiteral",
       "offset": 987,
       "length": 2,
       "value": "15"
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/DataGroups\/PACEInfo.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/DataGroups\/PACEInfo.swift",
       "kind": "IntegerLiteral",
       "offset": 1045,
       "length": 2,
       "value": "16"
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/DataGroups\/PACEInfo.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/DataGroups\/PACEInfo.swift",
       "kind": "IntegerLiteral",
       "offset": 1103,
       "length": 2,
       "value": "17"
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/DataGroups\/PACEInfo.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/DataGroups\/PACEInfo.swift",
       "kind": "IntegerLiteral",
       "offset": 1156,
       "length": 2,
       "value": "18"
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/NFCPassportModel.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/NFCPassportModel.swift",
       "kind": "IntegerLiteral",
       "offset": 232,
       "length": 7,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/NFCPassportModel.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/NFCPassportModel.swift",
       "kind": "IntegerLiteral",
       "offset": 249,
       "length": 6,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/NFCPassportModel.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/NFCPassportModel.swift",
       "kind": "StringLiteral",
       "offset": 427,
       "length": 6,
       "value": "\"5F03\""
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/NFCPassportModel.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/NFCPassportModel.swift",
       "kind": "StringLiteral",
       "offset": 445,
       "length": 3,
       "value": "\"?\""
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/NFCPassportModel.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/NFCPassportModel.swift",
       "kind": "StringLiteral",
       "offset": 554,
       "length": 6,
       "value": "\"5F03\""
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/NFCPassportModel.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/NFCPassportModel.swift",
       "kind": "StringLiteral",
       "offset": 571,
       "length": 3,
       "value": "\"?\""
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/NFCPassportModel.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/NFCPassportModel.swift",
       "kind": "StringLiteral",
       "offset": 672,
       "length": 4,
       "value": "\"5A\""
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/NFCPassportModel.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/NFCPassportModel.swift",
       "kind": "StringLiteral",
       "offset": 681,
       "length": 3,
       "value": "\"?\""
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/NFCPassportModel.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/NFCPassportModel.swift",
       "kind": "StringLiteral",
       "offset": 711,
       "length": 3,
       "value": "\"<\""
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/NFCPassportModel.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/NFCPassportModel.swift",
       "kind": "StringLiteral",
       "offset": 722,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/NFCPassportModel.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/NFCPassportModel.swift",
       "kind": "StringLiteral",
       "offset": 823,
       "length": 6,
       "value": "\"5F28\""
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/NFCPassportModel.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/NFCPassportModel.swift",
       "kind": "StringLiteral",
       "offset": 834,
       "length": 3,
       "value": "\"?\""
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/NFCPassportModel.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/NFCPassportModel.swift",
       "kind": "StringLiteral",
       "offset": 936,
       "length": 4,
       "value": "\"59\""
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/NFCPassportModel.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/NFCPassportModel.swift",
       "kind": "StringLiteral",
       "offset": 945,
       "length": 3,
       "value": "\"?\""
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/NFCPassportModel.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/NFCPassportModel.swift",
       "kind": "StringLiteral",
       "offset": 1040,
       "length": 6,
       "value": "\"5F57\""
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/NFCPassportModel.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/NFCPassportModel.swift",
       "kind": "StringLiteral",
       "offset": 1051,
       "length": 3,
       "value": "\"?\""
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/NFCPassportModel.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/NFCPassportModel.swift",
       "kind": "StringLiteral",
       "offset": 1141,
       "length": 6,
       "value": "\"5F35\""
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/NFCPassportModel.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/NFCPassportModel.swift",
       "kind": "StringLiteral",
       "offset": 1152,
       "length": 3,
       "value": "\"?\""
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/NFCPassportModel.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/NFCPassportModel.swift",
       "kind": "StringLiteral",
       "offset": 1247,
       "length": 6,
       "value": "\"5F2C\""
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/NFCPassportModel.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/NFCPassportModel.swift",
       "kind": "StringLiteral",
       "offset": 1258,
       "length": 3,
       "value": "\"?\""
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/NFCPassportModel.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/NFCPassportModel.swift",
       "kind": "IntegerLiteral",
       "offset": 1347,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/NFCPassportModel.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/NFCPassportModel.swift",
       "kind": "StringLiteral",
       "offset": 1375,
       "length": 3,
       "value": "\"<\""
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/NFCPassportModel.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/NFCPassportModel.swift",
       "kind": "StringLiteral",
       "offset": 1386,
       "length": 3,
       "value": "\" \""
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/NFCPassportModel.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/NFCPassportModel.swift",
       "kind": "StringLiteral",
       "offset": 1480,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/NFCPassportModel.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/NFCPassportModel.swift",
       "kind": "IntegerLiteral",
       "offset": 1500,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/NFCPassportModel.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/NFCPassportModel.swift",
       "kind": "StringLiteral",
       "offset": 1575,
       "length": 3,
       "value": "\"<\""
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/NFCPassportModel.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/NFCPassportModel.swift",
       "kind": "StringLiteral",
       "offset": 1586,
       "length": 3,
       "value": "\" \""
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/NFCPassportModel.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/NFCPassportModel.swift",
       "kind": "StringLiteral",
       "offset": 1677,
       "length": 3,
       "value": "\" \""
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/NFCPassportModel.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/NFCPassportModel.swift",
       "kind": "StringLiteral",
       "offset": 1871,
       "length": 6,
       "value": "\"5F1F\""
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/NFCPassportModel.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/NFCPassportModel.swift",
       "kind": "StringLiteral",
       "offset": 1882,
       "length": 11,
       "value": "\"NOT FOUND\""
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/NFCPassportModel.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/NFCPassportModel.swift",
       "kind": "StringLiteral",
       "offset": 2120,
       "length": 4,
       "value": "\"<<\""
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/NFCPassportModel.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/NFCPassportModel.swift",
       "kind": "StringLiteral",
       "offset": 2163,
       "length": 4,
       "value": "\"5B\""
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/NFCPassportModel.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/NFCPassportModel.swift",
       "kind": "StringLiteral",
       "offset": 2172,
       "length": 3,
       "value": "\"?\""
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/NFCPassportModel.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/NFCPassportModel.swift",
       "kind": "StringLiteral",
       "offset": 2201,
       "length": 4,
       "value": "\"<<\""
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/NFCPassportModel.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/NFCPassportModel.swift",
       "kind": "StringLiteral",
       "offset": 3252,
       "length": 4,
       "value": "\"53\""
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/NFCPassportModel.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/NFCPassportModel.swift",
       "kind": "StringLiteral",
       "offset": 3261,
       "length": 3,
       "value": "\"?\""
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/NFCPassportModel.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/NFCPassportModel.swift",
       "kind": "StringLiteral",
       "offset": 3291,
       "length": 3,
       "value": "\"<\""
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/NFCPassportModel.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/NFCPassportModel.swift",
       "kind": "StringLiteral",
       "offset": 3302,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/NFCPassportModel.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/NFCPassportModel.swift",
       "kind": "StringLiteral",
       "offset": 3784,
       "length": 9,
       "value": "\"Unknown\""
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/NFCPassportModel.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/NFCPassportModel.swift",
       "kind": "Array",
       "offset": 3974,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/NFCPassportModel.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/NFCPassportModel.swift",
       "kind": "Dictionary",
       "offset": 4197,
       "length": 3,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/NFCPassportModel.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/NFCPassportModel.swift",
       "kind": "BooleanLiteral",
       "offset": 4654,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/NFCPassportModel.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/NFCPassportModel.swift",
       "kind": "BooleanLiteral",
       "offset": 4732,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/NFCPassportModel.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/NFCPassportModel.swift",
       "kind": "BooleanLiteral",
       "offset": 4799,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/NFCPassportModel.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/NFCPassportModel.swift",
       "kind": "BooleanLiteral",
       "offset": 4869,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/NFCPassportModel.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/NFCPassportModel.swift",
       "kind": "Array",
       "offset": 4945,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/NFCPassportModel.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/NFCPassportModel.swift",
       "kind": "Array",
       "offset": 5018,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/NFCPassportModel.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/NFCPassportModel.swift",
       "kind": "Array",
       "offset": 5080,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/NFCPassportModel.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/NFCPassportModel.swift",
       "kind": "Dictionary",
       "offset": 6644,
       "length": 3,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/NFCPassportModel.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/NFCPassportModel.swift",
       "kind": "BooleanLiteral",
       "offset": 8785,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/NFCPassportModel.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/NFCPassportModel.swift",
       "kind": "BooleanLiteral",
       "offset": 11313,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/Base32\/Base32.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/Base32\/Base32.swift",
       "kind": "Array",
       "offset": 4219,
       "length": 129,
       "value": "[\"A\", \"B\", \"C\", \"D\", \"E\", \"F\", \"G\", \"H\", \"I\", \"J\", \"K\", \"L\", \"M\", \"N\", \"O\", \"P\", \"Q\", \"R\", \"S\", \"T\", \"U\", \"V\", \"W\", \"X\", \"Y\", \"Z\", \"2\", \"3\", \"4\", \"5\", \"6\", \"7\"]"
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/Base32\/Base32.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/Base32\/Base32.swift",
       "kind": "Array",
       "offset": 4447,
       "length": 129,
       "value": "[\"0\", \"1\", \"2\", \"3\", \"4\", \"5\", \"6\", \"7\", \"8\", \"9\", \"A\", \"B\", \"C\", \"D\", \"E\", \"F\", \"G\", \"H\", \"I\", \"J\", \"K\", \"L\", \"M\", \"N\", \"O\", \"P\", \"Q\", \"R\", \"S\", \"T\", \"U\", \"V\"]"
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/Base32\/Base32.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/Base32\/Base32.swift",
       "kind": "IntegerLiteral",
       "offset": 7143,
       "length": 3,
       "value": "255"
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/Base32\/Base32.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/Base32\/Base32.swift",
       "kind": "IntegerLiteral",
       "offset": 7398,
       "length": 2,
       "value": "26"
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/Base32\/Base32.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/Base32\/Base32.swift",
       "kind": "IntegerLiteral",
       "offset": 7401,
       "length": 2,
       "value": "27"
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/Base32\/Base32.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/Base32\/Base32.swift",
       "kind": "IntegerLiteral",
       "offset": 7405,
       "length": 2,
       "value": "28"
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/Base32\/Base32.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/Base32\/Base32.swift",
       "kind": "IntegerLiteral",
       "offset": 7408,
       "length": 2,
       "value": "29"
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/Base32\/Base32.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/Base32\/Base32.swift",
       "kind": "IntegerLiteral",
       "offset": 7411,
       "length": 2,
       "value": "30"
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/Base32\/Base32.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/Base32\/Base32.swift",
       "kind": "IntegerLiteral",
       "offset": 7414,
       "length": 2,
       "value": "31"
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/Base32\/Base32.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/Base32\/Base32.swift",
       "kind": "IntegerLiteral",
       "offset": 7465,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/Base32\/Base32.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/Base32\/Base32.swift",
       "kind": "IntegerLiteral",
       "offset": 7468,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/Base32\/Base32.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/Base32\/Base32.swift",
       "kind": "IntegerLiteral",
       "offset": 7471,
       "length": 1,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/Base32\/Base32.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/Base32\/Base32.swift",
       "kind": "IntegerLiteral",
       "offset": 7475,
       "length": 1,
       "value": "3"
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/Base32\/Base32.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/Base32\/Base32.swift",
       "kind": "IntegerLiteral",
       "offset": 7478,
       "length": 1,
       "value": "4"
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/Base32\/Base32.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/Base32\/Base32.swift",
       "kind": "IntegerLiteral",
       "offset": 7481,
       "length": 1,
       "value": "5"
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/Base32\/Base32.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/Base32\/Base32.swift",
       "kind": "IntegerLiteral",
       "offset": 7484,
       "length": 1,
       "value": "6"
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/Base32\/Base32.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/Base32\/Base32.swift",
       "kind": "IntegerLiteral",
       "offset": 7488,
       "length": 1,
       "value": "7"
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/Base32\/Base32.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/Base32\/Base32.swift",
       "kind": "IntegerLiteral",
       "offset": 7491,
       "length": 1,
       "value": "8"
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/Base32\/Base32.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/Base32\/Base32.swift",
       "kind": "IntegerLiteral",
       "offset": 7494,
       "length": 1,
       "value": "9"
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/Base32\/Base32.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/Base32\/Base32.swift",
       "kind": "IntegerLiteral",
       "offset": 7496,
       "length": 2,
       "value": "10"
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/Base32\/Base32.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/Base32\/Base32.swift",
       "kind": "IntegerLiteral",
       "offset": 7500,
       "length": 2,
       "value": "11"
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/Base32\/Base32.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/Base32\/Base32.swift",
       "kind": "IntegerLiteral",
       "offset": 7503,
       "length": 2,
       "value": "12"
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/Base32\/Base32.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/Base32\/Base32.swift",
       "kind": "IntegerLiteral",
       "offset": 7506,
       "length": 2,
       "value": "13"
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/Base32\/Base32.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/Base32\/Base32.swift",
       "kind": "IntegerLiteral",
       "offset": 7509,
       "length": 2,
       "value": "14"
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/Base32\/Base32.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/Base32\/Base32.swift",
       "kind": "IntegerLiteral",
       "offset": 7530,
       "length": 2,
       "value": "15"
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/Base32\/Base32.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/Base32\/Base32.swift",
       "kind": "IntegerLiteral",
       "offset": 7533,
       "length": 2,
       "value": "16"
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/Base32\/Base32.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/Base32\/Base32.swift",
       "kind": "IntegerLiteral",
       "offset": 7536,
       "length": 2,
       "value": "17"
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/Base32\/Base32.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/Base32\/Base32.swift",
       "kind": "IntegerLiteral",
       "offset": 7539,
       "length": 2,
       "value": "18"
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/Base32\/Base32.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/Base32\/Base32.swift",
       "kind": "IntegerLiteral",
       "offset": 7543,
       "length": 2,
       "value": "19"
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/Base32\/Base32.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/Base32\/Base32.swift",
       "kind": "IntegerLiteral",
       "offset": 7546,
       "length": 2,
       "value": "20"
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/Base32\/Base32.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/Base32\/Base32.swift",
       "kind": "IntegerLiteral",
       "offset": 7549,
       "length": 2,
       "value": "21"
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/Base32\/Base32.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/Base32\/Base32.swift",
       "kind": "IntegerLiteral",
       "offset": 7552,
       "length": 2,
       "value": "22"
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/Base32\/Base32.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/Base32\/Base32.swift",
       "kind": "IntegerLiteral",
       "offset": 7556,
       "length": 2,
       "value": "23"
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/Base32\/Base32.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/Base32\/Base32.swift",
       "kind": "IntegerLiteral",
       "offset": 7559,
       "length": 2,
       "value": "24"
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/Base32\/Base32.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/Base32\/Base32.swift",
       "kind": "IntegerLiteral",
       "offset": 7562,
       "length": 2,
       "value": "25"
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/Base32\/Base32.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/Base32\/Base32.swift",
       "kind": "IntegerLiteral",
       "offset": 7603,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/Base32\/Base32.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/Base32\/Base32.swift",
       "kind": "IntegerLiteral",
       "offset": 7606,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/Base32\/Base32.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/Base32\/Base32.swift",
       "kind": "IntegerLiteral",
       "offset": 7609,
       "length": 1,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/Base32\/Base32.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/Base32\/Base32.swift",
       "kind": "IntegerLiteral",
       "offset": 7613,
       "length": 1,
       "value": "3"
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/Base32\/Base32.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/Base32\/Base32.swift",
       "kind": "IntegerLiteral",
       "offset": 7616,
       "length": 1,
       "value": "4"
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/Base32\/Base32.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/Base32\/Base32.swift",
       "kind": "IntegerLiteral",
       "offset": 7619,
       "length": 1,
       "value": "5"
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/Base32\/Base32.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/Base32\/Base32.swift",
       "kind": "IntegerLiteral",
       "offset": 7622,
       "length": 1,
       "value": "6"
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/Base32\/Base32.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/Base32\/Base32.swift",
       "kind": "IntegerLiteral",
       "offset": 7626,
       "length": 1,
       "value": "7"
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/Base32\/Base32.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/Base32\/Base32.swift",
       "kind": "IntegerLiteral",
       "offset": 7629,
       "length": 1,
       "value": "8"
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/Base32\/Base32.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/Base32\/Base32.swift",
       "kind": "IntegerLiteral",
       "offset": 7632,
       "length": 1,
       "value": "9"
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/Base32\/Base32.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/Base32\/Base32.swift",
       "kind": "IntegerLiteral",
       "offset": 7634,
       "length": 2,
       "value": "10"
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/Base32\/Base32.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/Base32\/Base32.swift",
       "kind": "IntegerLiteral",
       "offset": 7638,
       "length": 2,
       "value": "11"
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/Base32\/Base32.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/Base32\/Base32.swift",
       "kind": "IntegerLiteral",
       "offset": 7641,
       "length": 2,
       "value": "12"
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/Base32\/Base32.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/Base32\/Base32.swift",
       "kind": "IntegerLiteral",
       "offset": 7644,
       "length": 2,
       "value": "13"
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/Base32\/Base32.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/Base32\/Base32.swift",
       "kind": "IntegerLiteral",
       "offset": 7647,
       "length": 2,
       "value": "14"
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/Base32\/Base32.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/Base32\/Base32.swift",
       "kind": "IntegerLiteral",
       "offset": 7668,
       "length": 2,
       "value": "15"
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/Base32\/Base32.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/Base32\/Base32.swift",
       "kind": "IntegerLiteral",
       "offset": 7671,
       "length": 2,
       "value": "16"
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/Base32\/Base32.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/Base32\/Base32.swift",
       "kind": "IntegerLiteral",
       "offset": 7674,
       "length": 2,
       "value": "17"
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/Base32\/Base32.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/Base32\/Base32.swift",
       "kind": "IntegerLiteral",
       "offset": 7677,
       "length": 2,
       "value": "18"
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/Base32\/Base32.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/Base32\/Base32.swift",
       "kind": "IntegerLiteral",
       "offset": 7681,
       "length": 2,
       "value": "19"
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/Base32\/Base32.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/Base32\/Base32.swift",
       "kind": "IntegerLiteral",
       "offset": 7684,
       "length": 2,
       "value": "20"
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/Base32\/Base32.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/Base32\/Base32.swift",
       "kind": "IntegerLiteral",
       "offset": 7687,
       "length": 2,
       "value": "21"
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/Base32\/Base32.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/Base32\/Base32.swift",
       "kind": "IntegerLiteral",
       "offset": 7690,
       "length": 2,
       "value": "22"
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/Base32\/Base32.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/Base32\/Base32.swift",
       "kind": "IntegerLiteral",
       "offset": 7694,
       "length": 2,
       "value": "23"
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/Base32\/Base32.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/Base32\/Base32.swift",
       "kind": "IntegerLiteral",
       "offset": 7697,
       "length": 2,
       "value": "24"
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/Base32\/Base32.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/Base32\/Base32.swift",
       "kind": "IntegerLiteral",
       "offset": 7700,
       "length": 2,
       "value": "25"
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/Base32\/Base32.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/Base32\/Base32.swift",
       "kind": "IntegerLiteral",
       "offset": 8547,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/Base32\/Base32.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/Base32\/Base32.swift",
       "kind": "IntegerLiteral",
       "offset": 8550,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/Base32\/Base32.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/Base32\/Base32.swift",
       "kind": "IntegerLiteral",
       "offset": 8553,
       "length": 1,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/Base32\/Base32.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/Base32\/Base32.swift",
       "kind": "IntegerLiteral",
       "offset": 8556,
       "length": 1,
       "value": "3"
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/Base32\/Base32.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/Base32\/Base32.swift",
       "kind": "IntegerLiteral",
       "offset": 8560,
       "length": 1,
       "value": "4"
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/Base32\/Base32.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/Base32\/Base32.swift",
       "kind": "IntegerLiteral",
       "offset": 8563,
       "length": 1,
       "value": "5"
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/Base32\/Base32.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/Base32\/Base32.swift",
       "kind": "IntegerLiteral",
       "offset": 8566,
       "length": 1,
       "value": "6"
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/Base32\/Base32.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/Base32\/Base32.swift",
       "kind": "IntegerLiteral",
       "offset": 8569,
       "length": 1,
       "value": "7"
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/Base32\/Base32.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/Base32\/Base32.swift",
       "kind": "IntegerLiteral",
       "offset": 8573,
       "length": 1,
       "value": "8"
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/Base32\/Base32.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/Base32\/Base32.swift",
       "kind": "IntegerLiteral",
       "offset": 8576,
       "length": 1,
       "value": "9"
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/Base32\/Base32.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/Base32\/Base32.swift",
       "kind": "IntegerLiteral",
       "offset": 8618,
       "length": 2,
       "value": "10"
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/Base32\/Base32.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/Base32\/Base32.swift",
       "kind": "IntegerLiteral",
       "offset": 8621,
       "length": 2,
       "value": "11"
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/Base32\/Base32.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/Base32\/Base32.swift",
       "kind": "IntegerLiteral",
       "offset": 8624,
       "length": 2,
       "value": "12"
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/Base32\/Base32.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/Base32\/Base32.swift",
       "kind": "IntegerLiteral",
       "offset": 8628,
       "length": 2,
       "value": "13"
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/Base32\/Base32.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/Base32\/Base32.swift",
       "kind": "IntegerLiteral",
       "offset": 8631,
       "length": 2,
       "value": "14"
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/Base32\/Base32.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/Base32\/Base32.swift",
       "kind": "IntegerLiteral",
       "offset": 8634,
       "length": 2,
       "value": "15"
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/Base32\/Base32.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/Base32\/Base32.swift",
       "kind": "IntegerLiteral",
       "offset": 8637,
       "length": 2,
       "value": "16"
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/Base32\/Base32.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/Base32\/Base32.swift",
       "kind": "IntegerLiteral",
       "offset": 8641,
       "length": 2,
       "value": "17"
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/Base32\/Base32.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/Base32\/Base32.swift",
       "kind": "IntegerLiteral",
       "offset": 8644,
       "length": 2,
       "value": "18"
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/Base32\/Base32.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/Base32\/Base32.swift",
       "kind": "IntegerLiteral",
       "offset": 8647,
       "length": 2,
       "value": "19"
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/Base32\/Base32.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/Base32\/Base32.swift",
       "kind": "IntegerLiteral",
       "offset": 8650,
       "length": 2,
       "value": "20"
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/Base32\/Base32.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/Base32\/Base32.swift",
       "kind": "IntegerLiteral",
       "offset": 8654,
       "length": 2,
       "value": "21"
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/Base32\/Base32.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/Base32\/Base32.swift",
       "kind": "IntegerLiteral",
       "offset": 8657,
       "length": 2,
       "value": "22"
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/Base32\/Base32.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/Base32\/Base32.swift",
       "kind": "IntegerLiteral",
       "offset": 8660,
       "length": 2,
       "value": "23"
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/Base32\/Base32.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/Base32\/Base32.swift",
       "kind": "IntegerLiteral",
       "offset": 8663,
       "length": 2,
       "value": "24"
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/Base32\/Base32.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/Base32\/Base32.swift",
       "kind": "IntegerLiteral",
       "offset": 8684,
       "length": 2,
       "value": "25"
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/Base32\/Base32.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/Base32\/Base32.swift",
       "kind": "IntegerLiteral",
       "offset": 8687,
       "length": 2,
       "value": "26"
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/Base32\/Base32.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/Base32\/Base32.swift",
       "kind": "IntegerLiteral",
       "offset": 8690,
       "length": 2,
       "value": "27"
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/Base32\/Base32.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/Base32\/Base32.swift",
       "kind": "IntegerLiteral",
       "offset": 8693,
       "length": 2,
       "value": "28"
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/Base32\/Base32.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/Base32\/Base32.swift",
       "kind": "IntegerLiteral",
       "offset": 8697,
       "length": 2,
       "value": "29"
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/Base32\/Base32.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/Base32\/Base32.swift",
       "kind": "IntegerLiteral",
       "offset": 8700,
       "length": 2,
       "value": "30"
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/Base32\/Base32.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/Base32\/Base32.swift",
       "kind": "IntegerLiteral",
       "offset": 8703,
       "length": 2,
       "value": "31"
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/Base32\/Base32.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/Base32\/Base32.swift",
       "kind": "IntegerLiteral",
       "offset": 8756,
       "length": 2,
       "value": "10"
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/Base32\/Base32.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/Base32\/Base32.swift",
       "kind": "IntegerLiteral",
       "offset": 8759,
       "length": 2,
       "value": "11"
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/Base32\/Base32.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/Base32\/Base32.swift",
       "kind": "IntegerLiteral",
       "offset": 8762,
       "length": 2,
       "value": "12"
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/Base32\/Base32.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/Base32\/Base32.swift",
       "kind": "IntegerLiteral",
       "offset": 8766,
       "length": 2,
       "value": "13"
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/Base32\/Base32.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/Base32\/Base32.swift",
       "kind": "IntegerLiteral",
       "offset": 8769,
       "length": 2,
       "value": "14"
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/Base32\/Base32.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/Base32\/Base32.swift",
       "kind": "IntegerLiteral",
       "offset": 8772,
       "length": 2,
       "value": "15"
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/Base32\/Base32.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/Base32\/Base32.swift",
       "kind": "IntegerLiteral",
       "offset": 8775,
       "length": 2,
       "value": "16"
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/Base32\/Base32.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/Base32\/Base32.swift",
       "kind": "IntegerLiteral",
       "offset": 8779,
       "length": 2,
       "value": "17"
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/Base32\/Base32.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/Base32\/Base32.swift",
       "kind": "IntegerLiteral",
       "offset": 8782,
       "length": 2,
       "value": "18"
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/Base32\/Base32.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/Base32\/Base32.swift",
       "kind": "IntegerLiteral",
       "offset": 8785,
       "length": 2,
       "value": "19"
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/Base32\/Base32.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/Base32\/Base32.swift",
       "kind": "IntegerLiteral",
       "offset": 8788,
       "length": 2,
       "value": "20"
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/Base32\/Base32.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/Base32\/Base32.swift",
       "kind": "IntegerLiteral",
       "offset": 8792,
       "length": 2,
       "value": "21"
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/Base32\/Base32.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/Base32\/Base32.swift",
       "kind": "IntegerLiteral",
       "offset": 8795,
       "length": 2,
       "value": "22"
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/Base32\/Base32.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/Base32\/Base32.swift",
       "kind": "IntegerLiteral",
       "offset": 8798,
       "length": 2,
       "value": "23"
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/Base32\/Base32.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/Base32\/Base32.swift",
       "kind": "IntegerLiteral",
       "offset": 8801,
       "length": 2,
       "value": "24"
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/Base32\/Base32.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/Base32\/Base32.swift",
       "kind": "IntegerLiteral",
       "offset": 8822,
       "length": 2,
       "value": "25"
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/Base32\/Base32.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/Base32\/Base32.swift",
       "kind": "IntegerLiteral",
       "offset": 8825,
       "length": 2,
       "value": "26"
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/Base32\/Base32.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/Base32\/Base32.swift",
       "kind": "IntegerLiteral",
       "offset": 8828,
       "length": 2,
       "value": "27"
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/Base32\/Base32.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/Base32\/Base32.swift",
       "kind": "IntegerLiteral",
       "offset": 8831,
       "length": 2,
       "value": "28"
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/Base32\/Base32.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/Base32\/Base32.swift",
       "kind": "IntegerLiteral",
       "offset": 8835,
       "length": 2,
       "value": "29"
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/Base32\/Base32.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/Base32\/Base32.swift",
       "kind": "IntegerLiteral",
       "offset": 8838,
       "length": 2,
       "value": "30"
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/Base32\/Base32.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/Base32\/Base32.swift",
       "kind": "IntegerLiteral",
       "offset": 8841,
       "length": 2,
       "value": "31"
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/IDCardReader.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/IDCardReader.swift",
       "kind": "StringLiteral",
       "offset": 434,
       "length": 12,
       "value": "\"masterList\""
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/IDCardReader.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/IDCardReader.swift",
       "kind": "StringLiteral",
       "offset": 463,
       "length": 6,
       "value": "\".pem\""
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/IDCardReader.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/IDCardReader.swift",
       "kind": "IntegerLiteral",
       "offset": 601,
       "length": 3,
       "value": "223"
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/IDCardReader.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/IDCardReader.swift",
       "kind": "StringLiteral",
       "offset": 672,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/IDCardReader.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/IDCardReader.swift",
       "kind": "StringLiteral",
       "offset": 704,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/IDCardReader.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/IDCardReader.swift",
       "kind": "StringLiteral",
       "offset": 735,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/IDCardReader.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/IDCardReader.swift",
       "kind": "StringLiteral",
       "offset": 766,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/IDCardReader.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/IDCardReader.swift",
       "kind": "StringLiteral",
       "offset": 1115,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/IDCardReader.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/IDCardReader.swift",
       "kind": "StringLiteral",
       "offset": 1143,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/IDCardReader.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/IDCardReader.swift",
       "kind": "Dictionary",
       "offset": 2276,
       "length": 3,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/IDCardReader.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/IDCardReader.swift",
       "kind": "Dictionary",
       "offset": 2322,
       "length": 3,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/IDCardReader.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/IDCardReader.swift",
       "kind": "BooleanLiteral",
       "offset": 4569,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/Request\/VerifyFaceRequest.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/Request\/VerifyFaceRequest.swift",
       "kind": "Dictionary",
       "offset": 318,
       "length": 3,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/Request\/VerifyFaceRequest.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/Request\/VerifyFaceRequest.swift",
       "kind": "Dictionary",
       "offset": 364,
       "length": 3,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/PassportReader.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/PassportReader.swift",
       "kind": "Array",
       "offset": 683,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/PassportReader.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/PassportReader.swift",
       "kind": "BooleanLiteral",
       "offset": 722,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/PassportReader.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/PassportReader.swift",
       "kind": "BooleanLiteral",
       "offset": 765,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/PassportReader.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/PassportReader.swift",
       "kind": "BooleanLiteral",
       "offset": 795,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/PassportReader.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/PassportReader.swift",
       "kind": "BooleanLiteral",
       "offset": 828,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/PassportReader.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/PassportReader.swift",
       "kind": "StringLiteral",
       "offset": 1008,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/PassportReader.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/PassportReader.swift",
       "kind": "BooleanLiteral",
       "offset": 1368,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/PassportReader.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/PassportReader.swift",
       "kind": "BooleanLiteral",
       "offset": 1420,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/PassportReader.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/PassportReader.swift",
       "kind": "BooleanLiteral",
       "offset": 1656,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/PassportReader.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/PassportReader.swift",
       "kind": "Array",
       "offset": 2521,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/PassportReader.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/PassportReader.swift",
       "kind": "BooleanLiteral",
       "offset": 2553,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/PassportReader.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/PassportReader.swift",
       "kind": "BooleanLiteral",
       "offset": 2575,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/PassportReader.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/Thirparty\/NFCPassportReader\/PassportReader.swift",
       "kind": "BooleanLiteral",
       "offset": 2600,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/Model.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/Model.swift",
       "kind": "StringLiteral",
       "offset": 189,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/Model.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/Model.swift",
       "kind": "StringLiteral",
       "offset": 237,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/Model.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/Model.swift",
       "kind": "Array",
       "offset": 285,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/Model.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/Model.swift",
       "kind": "Array",
       "offset": 482,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/Model.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/Model.swift",
       "kind": "Array",
       "offset": 529,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/Model.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/Model.swift",
       "kind": "Array",
       "offset": 576,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/Model.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/Model.swift",
       "kind": "Array",
       "offset": 623,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/Model.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/Model.swift",
       "kind": "IntegerLiteral",
       "offset": 758,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/Model.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/Model.swift",
       "kind": "StringLiteral",
       "offset": 805,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/Model.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/Model.swift",
       "kind": "StringLiteral",
       "offset": 853,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/Model.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/Model.swift",
       "kind": "StringLiteral",
       "offset": 901,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/Model.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/Model.swift",
       "kind": "StringLiteral",
       "offset": 949,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/Model.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/Model.swift",
       "kind": "StringLiteral",
       "offset": 1605,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/Model.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/Model.swift",
       "kind": "StringLiteral",
       "offset": 1656,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/Model.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/Model.swift",
       "kind": "StringLiteral",
       "offset": 1700,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/Model.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/Model.swift",
       "kind": "StringLiteral",
       "offset": 1744,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/Model.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/Model.swift",
       "kind": "StringLiteral",
       "offset": 1788,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/Model.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/Model.swift",
       "kind": "StringLiteral",
       "offset": 1832,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/Model.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/Model.swift",
       "kind": "StringLiteral",
       "offset": 1876,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/Model.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/Model.swift",
       "kind": "StringLiteral",
       "offset": 1920,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/Model.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/Model.swift",
       "kind": "StringLiteral",
       "offset": 1964,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/Model.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/Model.swift",
       "kind": "StringLiteral",
       "offset": 2008,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/Model.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/Model.swift",
       "kind": "StringLiteral",
       "offset": 2059,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/Model.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/Model.swift",
       "kind": "StringLiteral",
       "offset": 2110,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/Model.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/Model.swift",
       "kind": "StringLiteral",
       "offset": 2161,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/Model.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/Model.swift",
       "kind": "StringLiteral",
       "offset": 2212,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/Model.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/Model.swift",
       "kind": "StringLiteral",
       "offset": 2263,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/Model.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/Model.swift",
       "kind": "StringLiteral",
       "offset": 2313,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/Model.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/Model.swift",
       "kind": "StringLiteral",
       "offset": 2363,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/Model.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/Model.swift",
       "kind": "IntegerLiteral",
       "offset": 3721,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/Model.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/Model.swift",
       "kind": "StringLiteral",
       "offset": 3760,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/Model.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/Model.swift",
       "kind": "StringLiteral",
       "offset": 3808,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/Model.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/Model.swift",
       "kind": "IntegerLiteral",
       "offset": 4233,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/Model.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/Model.swift",
       "kind": "StringLiteral",
       "offset": 4272,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/Model.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/Model.swift",
       "kind": "BooleanLiteral",
       "offset": 4312,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/Model.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/Model.swift",
       "kind": "StringLiteral",
       "offset": 4355,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/Model.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/Model.swift",
       "kind": "IntegerLiteral",
       "offset": 4395,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/Model.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/Model.swift",
       "kind": "IntegerLiteral",
       "offset": 4882,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/Model.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/Model.swift",
       "kind": "StringLiteral",
       "offset": 4929,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/Model.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/Model.swift",
       "kind": "StringLiteral",
       "offset": 4977,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/Model.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/Model.swift",
       "kind": "StringLiteral",
       "offset": 5025,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/Model.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/Model.swift",
       "kind": "IntegerLiteral",
       "offset": 5619,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/Model.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/Model.swift",
       "kind": "IntegerLiteral",
       "offset": 5660,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/Model.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/Model.swift",
       "kind": "StringLiteral",
       "offset": 5706,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/Model.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/Model.swift",
       "kind": "StringLiteral",
       "offset": 5748,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/Model.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/Model.swift",
       "kind": "StringLiteral",
       "offset": 5790,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/Model.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/Model.swift",
       "kind": "StringLiteral",
       "offset": 5834,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/Model.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/Model.swift",
       "kind": "StringLiteral",
       "offset": 5876,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/Model.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/Model.swift",
       "kind": "StringLiteral",
       "offset": 5923,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/Model.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/Model.swift",
       "kind": "IntegerLiteral",
       "offset": 6532,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/Model.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/Model.swift",
       "kind": "StringLiteral",
       "offset": 6579,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/Model.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/Model.swift",
       "kind": "StringLiteral",
       "offset": 6627,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/Model.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/Model.swift",
       "kind": "StringLiteral",
       "offset": 6675,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/Model.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/Model.swift",
       "kind": "StringLiteral",
       "offset": 6723,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/Model.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/Model.swift",
       "kind": "IntegerLiteral",
       "offset": 7254,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/Model.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/Model.swift",
       "kind": "StringLiteral",
       "offset": 7301,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/Model.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/Model.swift",
       "kind": "StringLiteral",
       "offset": 7349,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/Model.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/Model.swift",
       "kind": "StringLiteral",
       "offset": 7397,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/Model.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/Model.swift",
       "kind": "StringLiteral",
       "offset": 7445,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/Model.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/Model.swift",
       "kind": "IntegerLiteral",
       "offset": 7870,
       "length": 11,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/Model.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/Model.swift",
       "kind": "IntegerLiteral",
       "offset": 7891,
       "length": 16,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/Model.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/Model.swift",
       "kind": "IntegerLiteral",
       "offset": 7917,
       "length": 20,
       "value": "3"
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/Model.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/Model.swift",
       "kind": "IntegerLiteral",
       "offset": 7947,
       "length": 14,
       "value": "4"
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/Model.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/Model.swift",
       "kind": "IntegerLiteral",
       "offset": 7971,
       "length": 16,
       "value": "5"
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/Model.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/Model.swift",
       "kind": "IntegerLiteral",
       "offset": 7997,
       "length": 16,
       "value": "6"
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/Model.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/Model.swift",
       "kind": "IntegerLiteral",
       "offset": 8023,
       "length": 13,
       "value": "7"
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/Model.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/Model.swift",
       "kind": "IntegerLiteral",
       "offset": 8046,
       "length": 23,
       "value": "8"
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/Model.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/Model.swift",
       "kind": "IntegerLiteral",
       "offset": 8079,
       "length": 21,
       "value": "9"
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/Model.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/Model.swift",
       "kind": "IntegerLiteral",
       "offset": 8110,
       "length": 12,
       "value": "10"
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/Model.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/Model.swift",
       "kind": "IntegerLiteral",
       "offset": 8132,
       "length": 19,
       "value": "11"
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/Model.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/Model.swift",
       "kind": "IntegerLiteral",
       "offset": 8161,
       "length": 12,
       "value": "12"
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/Model.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/Model.swift",
       "kind": "IntegerLiteral",
       "offset": 8183,
       "length": 9,
       "value": "13"
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/Model.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/Model.swift",
       "kind": "IntegerLiteral",
       "offset": 8202,
       "length": 17,
       "value": "14"
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/Model.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/Model.swift",
       "kind": "IntegerLiteral",
       "offset": 8229,
       "length": 19,
       "value": "15"
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/Model.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/Model.swift",
       "kind": "IntegerLiteral",
       "offset": 8258,
       "length": 10,
       "value": "16"
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/Model.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/Model.swift",
       "kind": "IntegerLiteral",
       "offset": 8278,
       "length": 13,
       "value": "17"
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/Model.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/Model.swift",
       "kind": "IntegerLiteral",
       "offset": 8301,
       "length": 15,
       "value": "18"
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/Model.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/Model.swift",
       "kind": "IntegerLiteral",
       "offset": 8326,
       "length": 16,
       "value": "19"
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/Model.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/Model.swift",
       "kind": "IntegerLiteral",
       "offset": 8352,
       "length": 10,
       "value": "20"
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/Model.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/Model.swift",
       "kind": "IntegerLiteral",
       "offset": 8372,
       "length": 34,
       "value": "21"
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/Model.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/Model.swift",
       "kind": "IntegerLiteral",
       "offset": 8417,
       "length": 11,
       "value": "22"
     },
     {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReaderV3\/IDCardReader\/Model.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/IDCardReaderV3\/IDCardReader\/Model.swift",
       "kind": "IntegerLiteral",
       "offset": 8438,
       "length": 10,

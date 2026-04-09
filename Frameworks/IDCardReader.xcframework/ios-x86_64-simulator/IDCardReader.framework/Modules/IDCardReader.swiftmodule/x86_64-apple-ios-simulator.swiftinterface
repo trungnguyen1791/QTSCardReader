@@ -1,7 +1,7 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 6.0.3 effective-5.10 (swiftlang-6.0.3.1.10 clang-1600.0.30.1)
-// swift-module-flags: -target x86_64-apple-ios12.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name IDCardReader
-// swift-module-flags-ignorable: -no-verify-emitted-module-interface
+// swift-compiler-version: Apple Swift version 6.2.3 effective-5.10 (swiftlang-6.2.3.3.21 clang-1700.6.3.2)
+// swift-module-flags: -target x86_64-apple-ios15.5-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name IDCardReader
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface -formal-cxx-interoperability-mode=off -interface-compiler-version 6.2.3
 import AVFoundation
 import CommonCrypto
 import CoreNFC
@@ -43,7 +43,9 @@ public class ChipAuthenticationPublicKeyInfo : IDCardReader.SecurityInfo {
   case warning = 3
   case error = 4
   case none = 5
+  #if compiler(>=5.3) && $NonescapableTypes
   public init?(rawValue: Swift.Int)
+  #endif
   public typealias AllCases = [IDCardReader.LogLevel]
   public typealias RawValue = Swift.Int
   nonisolated public static var allCases: [IDCardReader.LogLevel] {
@@ -68,7 +70,9 @@ public class ChipAuthenticationPublicKeyInfo : IDCardReader.SecurityInfo {
 @available(iOS 13, macOS 10.15, *)
 public class ASN1Item : Swift.CustomDebugStringConvertible {
   public init(line: Swift.String)
+  #if compiler(>=5.3) && $NonescapableTypes
   public func getChild(_ child: Swift.Int) -> IDCardReader.ASN1Item?
+  #endif
   public func getNumberOfChildren() -> Swift.Int
   public var debugDescription: Swift.String {
     get
@@ -130,7 +134,9 @@ public enum OTPDigits : Swift.Int {
   case six
   case seven
   case eight
+  #if compiler(>=5.3) && $NonescapableTypes
   public init?(rawValue: Swift.Int)
+  #endif
   public typealias RawValue = Swift.Int
   public var rawValue: Swift.Int {
     get
@@ -139,10 +145,14 @@ public enum OTPDigits : Swift.Int {
 @_hasMissingDesignatedInitializers @available(iOS 13, macOS 10.15, *)
 public class OpenSSLUtils {
   public static func getOpenSSLError() -> Swift.String
+  #if compiler(>=5.3) && $NonescapableTypes
   @available(iOS 13, macOS 10.15, *)
   public static func getPublicKeyData(from key: Swift.OpaquePointer) -> [Swift.UInt8]?
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   @available(iOS 13, macOS 10.15, *)
   public static func decodePublicKeyFromBytes(pubKeyData: [Swift.UInt8], params: Swift.OpaquePointer) -> Swift.OpaquePointer?
+  #endif
   public static func computeSharedSecret(privateKeyPair: Swift.OpaquePointer, publicKey: Swift.OpaquePointer) -> [Swift.UInt8]
   @objc deinit
 }
@@ -301,7 +311,9 @@ public enum DocTypeEnum : Swift.String {
   case TD1
   case TD2
   case OTHER
+  #if compiler(>=5.3) && $NonescapableTypes
   public init?(rawValue: Swift.String)
+  #endif
   @available(iOS 13, macOS 10.15, *)
   public typealias RawValue = Swift.String
   public var rawValue: Swift.String {
@@ -326,7 +338,9 @@ public class CardAccess {
 public class ActiveAuthenticationInfo : IDCardReader.SecurityInfo {
   override public func getObjectIdentifier() -> Swift.String
   override public func getProtocolOIDString() -> Swift.String
+  #if compiler(>=5.3) && $NonescapableTypes
   public func getSignatureAlgorithmOIDString() -> Swift.String?
+  #endif
   @objc deinit
 }
 public struct MultipartRequest {
@@ -365,7 +379,9 @@ public enum CertificateItem : Swift.String {
   case publicKeyAlgorithm
   case notBefore
   case notAfter
+  #if compiler(>=5.3) && $NonescapableTypes
   public init?(rawValue: Swift.String)
+  #endif
   @available(iOS 13, macOS 10.15, *)
   public typealias RawValue = Swift.String
   public var rawValue: Swift.String {
@@ -375,17 +391,35 @@ public enum CertificateItem : Swift.String {
 @available(iOS 13, macOS 10.15, *)
 public class X509Wrapper {
   final public let cert: Swift.OpaquePointer
+  #if compiler(>=5.3) && $NonescapableTypes
   public init?(with cert: Swift.OpaquePointer?)
+  #endif
   public func getItemsAsDict() -> [IDCardReader.CertificateItem : Swift.String]
   public func certToPEM() -> Swift.String
+  #if compiler(>=5.3) && $NonescapableTypes
   public func getFingerprint() -> Swift.String?
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public func getNotBeforeDate() -> Swift.String?
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public func getNotAfterDate() -> Swift.String?
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public func getSerialNumber() -> Swift.String?
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public func getSignatureAlgorithm() -> Swift.String?
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public func getPublicKeyAlgorithm() -> Swift.String?
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public func getIssuerName() -> Swift.String?
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public func getSubjectName() -> Swift.String?
+  #endif
   @objc deinit
 }
 @available(iOS 13, macOS 10.15, *)
@@ -411,7 +445,9 @@ public enum DataGroupId : Swift.Int, Swift.CaseIterable {
   case Unknown
   public func getName() -> Swift.String
   public static func getIDFromName(name: Swift.String) -> IDCardReader.DataGroupId
+  #if compiler(>=5.3) && $NonescapableTypes
   public init?(rawValue: Swift.Int)
+  #endif
   @available(iOS 13, macOS 10.15, *)
   public typealias AllCases = [IDCardReader.DataGroupId]
   @available(iOS 13, macOS 10.15, *)
@@ -516,7 +552,9 @@ public class PACEInfo : IDCardReader.SecurityInfo {
   override public func getObjectIdentifier() -> Swift.String
   override public func getProtocolOIDString() -> Swift.String
   public func getVersion() -> Swift.Int
+  #if compiler(>=5.3) && $NonescapableTypes
   public func getParameterId() -> Swift.Int?
+  #endif
   public func getParameterSpec() throws -> Swift.Int32
   public func getMappingType() throws -> IDCardReader.PACEMappingType
   public func getKeyAgreementAlgorithm() throws -> Swift.String
@@ -566,9 +604,11 @@ public enum NFCPassportReaderError : Swift.Error {
 }
 @available(iOS 13, macOS 10.15, *)
 extension IDCardReader.NFCPassportReaderError : Foundation.LocalizedError {
+  #if compiler(>=5.3) && $NonescapableTypes
   public var errorDescription: Swift.String? {
     get
   }
+  #endif
 }
 @available(iOS 13, macOS 10.15, *)
 public enum OpenSSLError : Swift.Error {
@@ -583,9 +623,11 @@ public enum OpenSSLError : Swift.Error {
 }
 @available(iOS 13, macOS 10.15, *)
 extension IDCardReader.OpenSSLError : Foundation.LocalizedError {
+  #if compiler(>=5.3) && $NonescapableTypes
   public var errorDescription: Swift.String? {
     get
   }
+  #endif
 }
 public enum PassiveAuthenticationError : Swift.Error {
   case UnableToParseSODHashes(Swift.String)
@@ -593,15 +635,19 @@ public enum PassiveAuthenticationError : Swift.Error {
   case SODMissing(Swift.String)
 }
 extension IDCardReader.PassiveAuthenticationError : Foundation.LocalizedError {
+  #if compiler(>=5.3) && $NonescapableTypes
   public var errorDescription: Swift.String? {
     get
   }
+  #endif
 }
 @objc public enum PassportAuthenticationStatus : Swift.Int {
   case notDone
   case success
   case failed
+  #if compiler(>=5.3) && $NonescapableTypes
   public init?(rawValue: Swift.Int)
+  #endif
   public typealias RawValue = Swift.Int
   public var rawValue: Swift.Int {
     get
@@ -642,24 +688,36 @@ public class NFCPassportModel {
   public var passportMRZ: Swift.String {
     get
   }
+  #if compiler(>=5.3) && $NonescapableTypes
   public var placeOfBirth: Swift.String? {
     get
   }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public var residenceAddress: Swift.String? {
     get
   }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public var phoneNumber: Swift.String? {
     get
   }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public var personalNumber: Swift.String? {
     get
   }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public var documentSigningCertificate: IDCardReader.X509Wrapper? {
     get
   }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public var countrySigningCertificate: IDCardReader.X509Wrapper? {
     get
   }
+  #endif
   public var LDSVersion: Swift.String {
     get
   }
@@ -714,22 +772,30 @@ public class NFCPassportModel {
   public var isChipAuthenticationSupported: Swift.Bool {
     get
   }
+  #if compiler(>=5.3) && $NonescapableTypes
   public var passportImage: UIKit.UIImage? {
     get
   }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public var signatureImage: UIKit.UIImage? {
     get
   }
+  #endif
   public var activeAuthenticationSupported: Swift.Bool {
     get
   }
   public init()
   public init(from dump: [Swift.String : Swift.String])
   public func addDataGroup(_ id: IDCardReader.DataGroupId, dataGroup: IDCardReader.DataGroup)
+  #if compiler(>=5.3) && $NonescapableTypes
   public func getDataGroup(_ id: IDCardReader.DataGroupId) -> IDCardReader.DataGroup?
+  #endif
   public func dumpPassportData(selectedDataGroups: [IDCardReader.DataGroupId], includeActiveAuthenticationData: Swift.Bool = false) -> [Swift.String : Swift.String]
   public func getHashesForDatagroups(hashAlgorythm: Swift.String) -> [IDCardReader.DataGroupId : [Swift.UInt8]]
+  #if compiler(>=5.3) && $NonescapableTypes
   public func verifyPassport(masterListURL: Foundation.URL?, useCMSVerification: Swift.Bool = false)
+  #endif
   public func verifyActiveAuthentication(challenge: [Swift.UInt8], signature: [Swift.UInt8])
   @objc deinit
 }
@@ -817,27 +883,43 @@ public class NotImplementedDG : IDCardReader.DataGroup {
 }
 public func base32Encode(_ data: Foundation.Data) -> Swift.String
 public func base32HexEncode(_ data: Foundation.Data) -> Swift.String
+#if compiler(>=5.3) && $NonescapableTypes
 public func base32DecodeToData(_ string: Swift.String) -> Foundation.Data?
+#endif
+#if compiler(>=5.3) && $NonescapableTypes
 public func base32HexDecodeToData(_ string: Swift.String) -> Foundation.Data?
+#endif
 public func base32Encode(_ array: [Swift.UInt8]) -> Swift.String
 public func base32HexEncode(_ array: [Swift.UInt8]) -> Swift.String
+#if compiler(>=5.3) && $NonescapableTypes
 public func base32Decode(_ string: Swift.String) -> [Swift.UInt8]?
+#endif
+#if compiler(>=5.3) && $NonescapableTypes
 public func base32HexDecode(_ string: Swift.String) -> [Swift.UInt8]?
+#endif
 extension Swift.String {
+  #if compiler(>=5.3) && $NonescapableTypes
   public var base32DecodedData: Foundation.Data? {
     get
   }
+  #endif
   public var base32EncodedString: Swift.String {
     get
   }
+  #if compiler(>=5.3) && $NonescapableTypes
   public func base32DecodedString(_ encoding: Swift.String.Encoding = .utf8) -> Swift.String?
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public var base32HexDecodedData: Foundation.Data? {
     get
   }
+  #endif
   public var base32HexEncodedString: Swift.String {
     get
   }
+  #if compiler(>=5.3) && $NonescapableTypes
   public func base32HexDecodedString(_ encoding: Swift.String.Encoding = .utf8) -> Swift.String?
+  #endif
 }
 extension Foundation.Data {
   public var base32EncodedString: Swift.String {
@@ -846,25 +928,33 @@ extension Foundation.Data {
   public var base32EncodedData: Foundation.Data {
     get
   }
+  #if compiler(>=5.3) && $NonescapableTypes
   public var base32DecodedData: Foundation.Data? {
     get
   }
+  #endif
   public var base32HexEncodedString: Swift.String {
     get
   }
   public var base32HexEncodedData: Foundation.Data {
     get
   }
+  #if compiler(>=5.3) && $NonescapableTypes
   public var base32HexDecodedData: Foundation.Data? {
     get
   }
+  #endif
 }
 @_inheritsConvenienceInitializers @available(iOS 13.0, *)
 @objc public class IDCardReaderManager : ObjectiveC.NSObject {
   @objc public static let shared: IDCardReader.IDCardReaderManager
   @objc public func setup(serverUrl: Swift.String, appId: Swift.String, publicKey: Swift.String, privateKey: Swift.String, logLevel: IDCardReader.LogLevel = .debug)
+  #if compiler(>=5.3) && $NonescapableTypes
   @objc public func setLocalizeTexts(requestPresentCard: Swift.String? = nil, authenticating: Swift.String? = nil, reading: Swift.String? = nil, errorReading: Swift.String? = nil, successReading: Swift.String? = nil, retry: Swift.String? = nil)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   @objc public func readIDCard(cardId: Swift.String, dateOfBirth: Swift.String, dateOfExpiry: Swift.String, backCardImage: UIKit.UIImage? = nil, transactionId: Swift.String, additionalParams: [Swift.String : Any] = [:], additionalHeaderParams: [Swift.String : Swift.String] = [:]) async throws -> IDCardReader.IDCardInformationResponse
+  #endif
   @objc override dynamic public init()
   @objc deinit
 }
@@ -875,10 +965,14 @@ extension IDCardReader.IDCardReaderManager {
 @objc @available(iOS 13, *)
 public class PassportReader : ObjectiveC.NSObject {
   public var passiveAuthenticationUsesOpenSSL: Swift.Bool
+  #if compiler(>=5.3) && $NonescapableTypes
   public init(logLevel: IDCardReader.LogLevel = .info, masterListURL: Foundation.URL? = nil)
+  #endif
   public func setMasterListURL(_ masterListURL: Foundation.URL)
   public func overrideNFCDataAmountToRead(amount: Swift.Int)
+  #if compiler(>=5.3) && $NonescapableTypes
   public func readPassport(mrzKey: Swift.String, tags: [IDCardReader.DataGroupId] = [], skipSecureElements: Swift.Bool = true, skipCA: Swift.Bool = false, skipPACE: Swift.Bool = false, customDisplayMessage: ((IDCardReader.NFCViewDisplayMessage) -> Swift.String?)? = nil) async throws -> IDCardReader.NFCPassportModel
+  #endif
   @objc deinit
 }
 @available(iOS 13, *)
@@ -907,7 +1001,9 @@ public struct IDCardRawData {
   @objc public var data: IDCardReader.IDCardInformation?
   @objc public var chipAuthStatus: IDCardReader.PassportAuthenticationStatus
   @objc public var passiveAuthStatus: IDCardReader.PassportAuthenticationStatus
+  #if compiler(>=5.3) && $NonescapableTypes
   required public init?(map: ObjectMapper.Map)
+  #endif
   public func mapping(map: ObjectMapper.Map)
   @objc deinit
 }
@@ -929,7 +1025,9 @@ public struct IDCardRawData {
   @objc public var motherName: Swift.String
   @objc public var partnerName: Swift.String
   @objc public var faceImage: Swift.String
+  #if compiler(>=5.3) && $NonescapableTypes
   required public init?(map: ObjectMapper.Map)
+  #endif
   public func mapping(map: ObjectMapper.Map)
   @objc deinit
 }
@@ -938,7 +1036,9 @@ public struct IDCardValidationResponse : ObjectMapper.Mappable {
   public var code: Swift.String
   public var message: Swift.String
   public var data: IDCardReader.IDCardValidationData?
+  #if compiler(>=5.3) && $NonescapableTypes
   public init?(map: ObjectMapper.Map)
+  #endif
   public mutating func mapping(map: ObjectMapper.Map)
 }
 public struct IDCardValidationData : ObjectMapper.Mappable {
@@ -947,7 +1047,9 @@ public struct IDCardValidationData : ObjectMapper.Mappable {
   public var result: Swift.Bool
   public var message: Swift.String
   public var time: Swift.Int
+  #if compiler(>=5.3) && $NonescapableTypes
   public init?(map: ObjectMapper.Map)
+  #endif
   public mutating func mapping(map: ObjectMapper.Map)
 }
 @objc @objcMembers public class IDCardPassiveAuthenticationResponse : ObjectiveC.NSObject, ObjectMapper.Mappable {
@@ -957,7 +1059,9 @@ public struct IDCardValidationData : ObjectMapper.Mappable {
   @objc public var requestId: Swift.String
   @objc public var data: IDCardReader.PassiveAuthInformation?
   @objc public var cardData: IDCardReader.IDCardInformation?
+  #if compiler(>=5.3) && $NonescapableTypes
   required public init?(map: ObjectMapper.Map)
+  #endif
   public func mapping(map: ObjectMapper.Map)
   @objc deinit
 }
@@ -970,7 +1074,9 @@ public struct IDCardValidationData : ObjectMapper.Mappable {
   @objc public var cardHolderName: Swift.String
   @objc public var address: Swift.String
   @objc public var faceImage: Swift.String
+  #if compiler(>=5.3) && $NonescapableTypes
   required public init?(map: ObjectMapper.Map)
+  #endif
   public func mapping(map: ObjectMapper.Map)
   @objc deinit
 }
@@ -981,7 +1087,9 @@ public struct IDCardValidationData : ObjectMapper.Mappable {
   @objc public var code: Swift.String
   @objc public var message: Swift.String
   @objc override dynamic public init()
+  #if compiler(>=5.3) && $NonescapableTypes
   required public init?(map: ObjectMapper.Map)
+  #endif
   public func mapping(map: ObjectMapper.Map)
   @objc deinit
 }
@@ -991,7 +1099,9 @@ public struct IDCardValidationData : ObjectMapper.Mappable {
   @objc public var message: Swift.String
   @objc public var secret: Swift.String
   @objc public var signature: Swift.String
+  #if compiler(>=5.3) && $NonescapableTypes
   required public init?(map: ObjectMapper.Map)
+  #endif
   public func mapping(map: ObjectMapper.Map)
   @objc deinit
 }
@@ -1020,7 +1130,9 @@ public struct IDCardValidationData : ObjectMapper.Mappable {
   case transactionNotFoundNoMatchMerchant
   case unknowError
   case invalidOTP
+  #if compiler(>=5.3) && $NonescapableTypes
   public init?(rawValue: Swift.Int)
+  #endif
   public typealias RawValue = Swift.Int
   public static var _nsErrorDomain: Swift.String {
     get

@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name         = "QTSCardReader"
-  spec.version      = "1.3.6"
+  spec.version      = "1.3.7"
   spec.summary      = "QTSCardReader SDK for iOS."
   spec.homepage     = "https://github.com/trungnguyen1791/QTSCardReader"
   spec.author           = { 'My Name' => 'myemail@example.com' }
@@ -8,7 +8,7 @@ Pod::Spec.new do |spec|
   spec.source           = { :git => 'https://github.com/trungnguyen1791/QTSCardReader.git', :tag => spec.version.to_s }
   
   spec.platform = :ios
-  spec.ios.deployment_target = "15.5"
+  spec.ios.deployment_target = "13.0"
 
   spec.vendored_frameworks = [
     'Frameworks/IDCardReader.xcframework',
